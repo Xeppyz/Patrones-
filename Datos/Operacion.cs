@@ -13,8 +13,9 @@ namespace Datos
     {
         public bool InsertDocente(string nombre, string direccion, string correo, string telefono)
         {
-            using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-II81846;Initial Catalog=Mediador;Persist Security Info=True;User ID=sa;Password=Usuario123."))
+            using (SqlConnection connection = new SqlConnection("Data Source=165.98.12.158;Initial Catalog=NeoTechPatrones;User ID=neotech;Password=74zYE0vhDs"))
             {
+                // Data Source=DESKTOP-II81846;Initial Catalog=Mediador;Persist Security Info=True;User ID=sa;Password=Usuario123.
                 try
                 {
                     connection.Open();

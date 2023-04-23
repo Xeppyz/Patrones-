@@ -43,43 +43,40 @@ namespace Mediator
             correo = txtCorreo.Text;
             telefono = txtTelefono.Text;
 
-
-            if (op.InsertDocente(nombre, direccion, correo, telefono))
+            if (string.IsNullOrEmpty(nombre) || string.IsNullOrEmpty(direccion) || string.IsNullOrEmpty(correo) || string.IsNullOrEmpty(telefono))
             {
-                Response.Write("<script>windows.alert('Expediente Guardado correctamente')</script>");
-                GridView1.DataBind();
+                mediador.Notificar("Debe llenar todos los campos.", sender);
             }
             else
             {
-                Response.Write("<script>windows.alert('Error al guardar')</script>");
+                if (op.InsertDocente(nombre, direccion, correo, telefono))
+                {
+                    Response.Write("<script>windows.alert('Expediente Guardado correctamente')</script>");
+                    GridView1.DataBind();
+                }
+                else
+                {
+                    Response.Write("<script>windows.alert('Error al guardar')</script>");
+                }
+
+
+                mediador.Notificar("Datos guardados en la base de datos.", sender);
             }
-
-            /*string nombre = txtNombre.Text;
-            string direccion = txtDireccion.Text;
-            string correo = txtCorreo.Text;
-            string telefono = txtTelefono.Text;
-
-            Docente docente = new Docente { Nombre = nombre, Direccion = direccion, Correo = correo, Telefono = telefono };
-
-            //datos.Add(docente);
-
-            //GridView1.DataSource = datos;
-            //GridView1.DataBind();
-            */
-            mediador.Notificar("Datos guardados en la base de datos.", sender);
+            
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
             // Aquí podríamos hacer algo con los datos guardados en la lista, como mostrarlos en una tabla, por ejemplo.
             // En este ejemplo, simplemente mostraremos un mensaje en el Label2.
-            // Limpiamos los campos de texto
+            // Limpiamos los campos de 
+            txtId.Text = "";
             txtNombre.Text = "";
             txtDireccion.Text = "";
             txtCorreo.Text = "";
             txtTelefono.Text = "";
 
-            mediador.Notificar("Datos han sido  en la tabla.", sender);
+            mediador.Notificar("Los campos han sido eliminados.", sender);
         }
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)

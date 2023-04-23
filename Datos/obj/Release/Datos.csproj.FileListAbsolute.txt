@@ -1,0 +1,6 @@
+C:\Users\Iver\documents\visual studio 2017\Projects\Mediator\Datos\bin\Release\Datos.dll
+C:\Users\Iver\documents\visual studio 2017\Projects\Mediator\Datos\bin\Release\Datos.pdb
+C:\Users\Iver\documents\visual studio 2017\Projects\Mediator\Datos\obj\Release\Datos.csprojAssemblyReference.cache
+C:\Users\Iver\documents\visual studio 2017\Projects\Mediator\Datos\obj\Release\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Iver\documents\visual studio 2017\Projects\Mediator\Datos\obj\Release\Datos.dll
+C:\Users\Iver\documents\visual studio 2017\Projects\Mediator\Datos\obj\Release\Datos.pdb

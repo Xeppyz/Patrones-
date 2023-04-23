@@ -53,3 +53,7 @@ c:\users\iver\documents\visual studio 2017\Projects\Mediator\Mediator\obj\Debug\
 c:\users\iver\documents\visual studio 2017\Projects\Mediator\Mediator\obj\Debug\Mediator.pdb
 c:\users\iver\documents\visual studio 2017\Projects\Mediator\Mediator\bin\Datos.dll
 c:\users\iver\documents\visual studio 2017\Projects\Mediator\Mediator\bin\Datos.pdb
+C:\Users\Iver\documents\visual studio 2017\Projects\Mediator\Mediator\bin\Microsoft.Web.Delegation.dll
+C:\Users\Iver\documents\visual studio 2017\Projects\Mediator\Mediator\bin\Microsoft.Web.Deployment.dll
+C:\Users\Iver\documents\visual studio 2017\Projects\Mediator\Mediator\bin\Microsoft.Web.Deployment.Tracing.dll
+C:\Users\Iver\documents\visual studio 2017\Projects\Mediator\Mediator\bin\Microsoft.Web.Administration.dll

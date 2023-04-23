@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site/b231-neotech" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Iver\\documents\\visual\ studio\ 2017\\Projects\\Mediator\\Mediator\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Iver\\documents\\visual\ studio\ 2017\\Projects\\Mediator\\Mediator\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="Default Web Site/b231-neotech/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Iver\\documents\\visual\ studio\ 2017\\Projects\\Mediator\\Mediator\\obj\\Release\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="MediadorConnectionString-Web.config Connection String" description="" value="Data Source=DESKTOP-II81846;Initial Catalog=Mediador;User ID=sa;Password=Usuario123." tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Iver\\documents\\visual\ studio\ 2017\\Projects\\Mediator\\Mediator\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MediadorConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
