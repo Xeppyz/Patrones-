@@ -4,3 +4,9 @@ C:\Users\Iver\documents\visual studio 2017\Projects\Mediator\Datos\obj\Release\D
 C:\Users\Iver\documents\visual studio 2017\Projects\Mediator\Datos\obj\Release\Datos.csproj.CoreCompileInputs.cache
 C:\Users\Iver\documents\visual studio 2017\Projects\Mediator\Datos\obj\Release\Datos.dll
 C:\Users\Iver\documents\visual studio 2017\Projects\Mediator\Datos\obj\Release\Datos.pdb
+C:\Users\AlienWare\Desktop\Patrones\Mediator\Datos\bin\Release\Datos.dll
+C:\Users\AlienWare\Desktop\Patrones\Mediator\Datos\bin\Release\Datos.pdb
+C:\Users\AlienWare\Desktop\Patrones\Mediator\Datos\obj\Release\Datos.csprojAssemblyReference.cache
+C:\Users\AlienWare\Desktop\Patrones\Mediator\Datos\obj\Release\Datos.csproj.CoreCompileInputs.cache
+C:\Users\AlienWare\Desktop\Patrones\Mediator\Datos\obj\Release\Datos.dll
+C:\Users\AlienWare\Desktop\Patrones\Mediator\Datos\obj\Release\Datos.pdb

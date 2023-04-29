@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="MediadorConnectionString-Web.config Connection String" description="MediadorConnectionString Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=DESKTOP-II81846;Initial Catalog=Mediador;Persist Security Info=True;User ID=sa;Password=Usuario123." tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Iver\\documents\\visual\ studio\ 2017\\Projects\\Mediator\\Mediator\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MediadorConnectionString']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\AlienWare\\Documents\\Visual\ Studio\ 2017\\Projects\\Patrones\\Mediator\\Mediator\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MediadorConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="NeoTechPatronesConnectionString-Web.config Connection String" description="NeoTechPatronesConnectionString Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=165.98.12.158;Initial Catalog=NeoTechPatrones;User ID=neotech;Password=74zYE0vhDs" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\AlienWare\\Documents\\Visual\ Studio\ 2017\\Projects\\Patrones\\Mediator\\Mediator\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='NeoTechPatronesConnectionString']/@connectionString" />
   </parameter>
 </parameters>
